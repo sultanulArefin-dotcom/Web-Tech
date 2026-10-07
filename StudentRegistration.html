@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+     <h1>Student Registration Form</h1>
+
+    <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname"
+               placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"
+               placeholder="" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age">
+        <br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <label>Gender:</label><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <label for="city">City:</label><br>
+        <select id="city" name="city">
+            <option value="dhaka">Dhaka</option>
+            <option value="khulna">Khulna</option>
+            <option value="rajshahi">Rajshahi</option>
+            <option value="sylhet">Sylhet</option>
+        </select>
+
+        <br><br>
+
+        <label>Hobbies:</label><br>
+
+        <input type="checkbox" id="reading" name="hobby" value="reading">
+        <label for="reading">Reading</label>
+
+        <input type="checkbox" id="cricket" name="hobby" value="cricket">
+        <label for="cricket">Cricket</label>
+
+        <input type="checkbox" id="music" name="hobby" value="music">
+        <label for="music">Music</label>
+
+        <br><br>
+
+        <label for="about">About Yourself:</label><br>
+        <textarea id="about" name="about" rows="4" cols="30"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
